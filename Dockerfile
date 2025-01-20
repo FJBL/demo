@@ -1,5 +1,5 @@
 # Usa una imagen base de Nginx
-FROM nginx
+FROM nginx:1.25.3-alpine
 
 # Elimina la configuración por defecto de Nginx
 RUN rm /etc/nginx/conf.d/default.conf
